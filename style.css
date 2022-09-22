@@ -77,8 +77,25 @@ h1{
     margin-top: 150px;
     margin-left: 80px;
 }
+.button-2{
+    width: 150px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    font-size: 1rem;
+    margin-top: 150px;
+    margin-left: 10px;
+    
+}
 :hover.button{
     cursor: pointer;
+}
+:hover.button-2{
+    cursor: pointer;
+
 }
 .termometro{
     width: 300px;
