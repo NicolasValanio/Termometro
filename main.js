@@ -7,4 +7,9 @@ function convertir() {
     termometro = document.getElementById('termo').style.height = resultado+"%";
 }
 
-  
+  function reiniciar() {
+   document.getElementById('farent').value=" ";
+   document.getElementById('label').innerText=" ";
+   document.getElementById('termo').style.height="0"
+   
+}
